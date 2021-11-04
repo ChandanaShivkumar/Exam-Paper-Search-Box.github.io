@@ -1,0 +1,41 @@
+<style >
+
+/* media queries */
+/* mobile 01 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    .mainHeader .navbar-nav {
+        background-color: white;
+        left: 0;
+        padding: 0 12px;
+    }
+
+    .banner-image img {
+        height: 100vh !important;
+    }
+
+    .footer {
+        padding: 20px 0 5px 25px !important;
+    }
+}
+
+/* mobile 02 */
+@media only screen and (min-device-width: 412px) and (max-device-width: 732px) {}
+
+/* tab 01 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 978px) {}
+
+/* tab 02 */
+@media only screen and (min-device-width: 979px) and (max-device-width: 1199px) {}
+
+/* apple */
+/* ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+/* ipad 10.5 inch*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (orientation: portrait) {}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (orientation: landscape) {}
+
+</style >
